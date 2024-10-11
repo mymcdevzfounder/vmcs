@@ -1,0 +1,8 @@
+information:
+  update: "Latest update"
+  website: "https://example.com"
+  vote: "https://example.com/vote"
+  store: "https://example.com/store"
+
+# Store player currency here
+rupiah: {}

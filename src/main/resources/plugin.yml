@@ -1,0 +1,29 @@
+name: vmcs
+main: id.mcdevz.vmcs.mainactivity
+version: 0.1
+api-version: 1.20
+author: mcdevz
+description: Build Version (Developer Version) 
+commands:
+  rupiah:
+    description: Manage player rupiah
+    usage: /rupiah <subcommand> [args]
+    aliases: [rupiah]
+permissions:
+  vmcs.rupiah.*:
+    description: Give access to all Rupiah commands
+    default: op
+  vmcs.rupiah.add:
+    description: Allows adding rupiah to players
+    default: op
+  vmcs.rupiah.remove:
+    description: Allows removing rupiah from players
+    default: op
+  vmcs.rupiah.cek:
+    description: Allows checking rupiah for players
+    default: op
+  vmcs.rupiah.reset:
+    description: Allows resetting rupiah for players
+    default: op 
+softdepend:
+  - PlaceholderAPI
