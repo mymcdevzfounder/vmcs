@@ -1,7 +1,0 @@
-scoreboard:
-  title: "&bPlayer Stats"
-  lines:
-    - "&bPlayer Name: %player_name%"
-    - "&bHealth: %player_health%"
-    - "&bPing: %player_ping%"
-update-time: 50 # Set waktu update dalam tick (50 tick = 2,5 detik)
